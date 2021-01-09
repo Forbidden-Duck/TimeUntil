@@ -1,0 +1,57 @@
+<defs>
+    <symbol id="date">
+        <symbol id="timeBox">
+            <rect class="rect fill"/>
+            <rect class="rectOut fillOut" x="4" y="4"/>
+        </symbol>
+        <symbol id="timeBoxLarge">
+            <rect class="rectLarge fill"/>
+            <rect class="rectOutLarge fillOut" x="4" y="4"/>
+        </symbol>
+        <text
+            id="title"
+            x="50%"
+            y="14%"
+        >Title</text>
+        <g transform="translate(33%,19%)">
+            <use href="#timeBoxLarge"/>
+        </g>
+        <g transform="translate(8%,41%)">
+            <use href="#timeBox"/>
+        </g>
+        <g transform="translate(37%,41%)">
+            <use href="#timeBox"/>
+        </g>
+        <g transform="translate(66%,41%)">
+            <use href="#timeBox"/>
+        </g>
+        <text
+            id="days"
+            class="text"
+            x="50%"
+            y="33%"
+        >000</text>
+        <text
+            id="hours"
+            class="text"
+            x="21%"
+            y="61%"
+        >00</text>
+        <text
+            id="mins"
+            class="text"
+            x="50%"
+            y="61%"
+        >00</text>
+        <text
+            id="secs"
+            class="text"
+            x="79%"
+            y="61%"
+        >00</text>
+        <use id="backButton" href="#square-button" class="back">
+            <text class="btnText">BACK</text>
+        </use>
+    </symbol>
+</defs>
+4

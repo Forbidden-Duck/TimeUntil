@@ -1,0 +1,100 @@
+<defs>
+    <symbol id="listPage">
+        <use id="christmasButton" href="#square-button" class="firstBtn listBtn">
+            <image href="banners/christmas.png" class="banner">
+                <animate
+                    attributeName="opacity"
+                    begin="mousedown"
+                    from="1"
+                    to="0"
+                    final="keep"
+                />
+                <animate
+                    attributeName="opacity"
+                    begin="mouseup"
+                    from="0"
+                    to="1"
+                    final="keep"
+                />
+            </image>
+            <text class="btnText">Christmas</text>
+        </use>
+        <use id="newyearsButton" href="#square-button" class="listBtn">
+            <image href="banners/newyears.png" class="banner">
+                <animate
+                    attributeName="opacity"
+                    begin="mousedown"
+                    from="1"
+                    to="0"
+                    final="keep"
+                />
+                <animate
+                    attributeName="opacity"
+                    begin="mouseup"
+                    from="0"
+                    to="1"
+                    final="keep"
+                />
+            </image>
+            <text class="btnText">New Years</text>
+        </use>
+        <use id="halloweenButton" href="#square-button" class="listBtn">
+            <image href="banners/halloween.png" class="banner">
+                <animate
+                    attributeName="opacity"
+                    begin="mousedown"
+                    from="1"
+                    to="0"
+                    final="keep"
+                />
+                <animate
+                    attributeName="opacity"
+                    begin="mouseup"
+                    from="0"
+                    to="1"
+                    final="keep"
+                />
+            </image>
+            <text class="btnText">Halloween</text>
+        </use>
+        <use id="birthdayButton" href="#square-button" class="listBtn">
+            <image href="banners/birthday.png" class="banner">
+                <animate
+                    attributeName="opacity"
+                    begin="mousedown"
+                    from="1"
+                    to="0"
+                    final="keep"
+                />
+                <animate
+                    attributeName="opacity"
+                    begin="mouseup"
+                    from="0"
+                    to="1"
+                    final="keep"
+                />
+            </image>
+            <text class="btnTextDark">Birthday</text>
+        </use>
+        <use id="customButton" href="#square-button" class="listBtn">
+            <text id="customText" class="btnText">
+                Custom
+                <animate
+                    attributeName="fill"
+                    begin="mousedown"
+                    from="white"
+                    to="black"
+                    final="keep"
+                />
+                <animate
+                    attributeName="fill"
+                    begin="mouseup"
+                    from="black"
+                    to="white"
+                    final="keep"
+                />
+            </text>
+            <set href="customText" attributeName="text-length" to="25"/>
+        </use>
+    </symbol>
+</defs>

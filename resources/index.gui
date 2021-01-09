@@ -1,0 +1,8 @@
+<svg id="background">
+    <g id="listPage" class="visible">
+        <use href="#listPage"/>
+    </g>
+    <g id="date" class="hidden">
+        <use href="#date"/>
+    </g>
+</svg>

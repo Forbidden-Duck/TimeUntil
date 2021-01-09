@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "5cb83dbc-8e8d-472e-ab0c-0d4cb2dc6db8",
+    "appType": "app",
+    "appDisplayName": "Time Until",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#2196f3",
+    "requestedPermissions": [
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "mira",
+      "gemini",
+      "meson"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Time Until"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
